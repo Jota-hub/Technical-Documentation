@@ -1,0 +1,47 @@
+header {
+    font-size: 35px;
+}
+
+code {
+    width: 100%;
+}
+
+#navbar {
+    height: 100%;
+    text-decoration: none;
+    position: fixed;
+    border-right: 5px groove;
+}
+
+#navbar ul {
+    padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+#navbar header {
+    margin-bottom: 8%;
+    border-bottom: 1px solid black;
+}
+
+#navbar ul li {
+    border-bottom: 1px solid black;
+    margin-bottom: 8%;
+}
+
+#navbar ul li a {
+	display: inline-block;
+	text-decoration: none;
+    color: black;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#navbar ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+}
+
+#main-doc {
+    margin-left: 16%;
+}
